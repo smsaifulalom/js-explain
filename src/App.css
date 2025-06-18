@@ -1,0 +1,72 @@
+/* Sidebar topic and subtopic styling */
+.dark .topic-item {
+  color: #9ca3af;
+  border-bottom: 1px solid #374151;
+  padding: 0.5rem 0;
+}
+
+.dark .topic-item:hover {
+  color: #f3f4f6;
+}
+
+.dark .subtopic-item {
+  color: #6b7280;
+  padding-left: 1rem;
+}
+
+.dark .subtopic-item:hover {
+  color: #9ca3af;
+}
+
+/* Prose text color in dark mode (comprehensive) */
+.dark .prose,
+.dark .prose p,
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6,
+.dark .prose ul,
+.dark .prose ol,
+.dark .prose li,
+.dark .prose strong,
+.dark .prose span,
+.dark .prose blockquote,
+.dark .prose th,
+.dark .prose td,
+.dark .prose dt,
+.dark .prose dd,
+.dark .prose a {
+  color: #fff !important;
+}
+
+/* Code block styling for editor-like look */
+.prose pre {
+  background: #23272e;
+  color: #d4d4d4;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'monospace';
+  font-size: 1em;
+  border-radius: 0.5rem;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Inline code styling */
+.prose code {
+  background: #2d2d2d;
+  color: #ffcb6b;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'monospace';
+  font-size: 0.95em;
+}
+
+/* Remove double background for code inside pre */
+.prose pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+}
